@@ -1,0 +1,3 @@
+#!/bin/sh
+
+./gradlew --quiet "installDist" < /dev/null && ./build/install/maniac-unpacker/bin/maniac-unpacker "$@"
